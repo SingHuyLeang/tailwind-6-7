@@ -7,6 +7,48 @@
     <link rel="stylesheet" href="./src/output.css" />
   </head>
   <body>
-    
+    <header class="w-full flex justify-between items-center px-6 py-3">
+      <img src="./public/logo.png" alt="" />
+      <nav class="max-md:hidden flex gap-4 lg:gap-8 duration-300">
+        <a class="hover:text-primary" href="">Shop All</a>
+        <a class="hover:text-primary" href="">Makeup</a>
+        <a class="hover:text-primary" href="">Skin Care</a>
+        <a class="hover:text-primary" href="">Hair Care</a>
+        <a class="hover:text-primary" href="">About</a>
+        <a class="hover:text-primary" href="">Contact</a>
+      </nav>
+      <article class="max-md:hidden flex items-center gap-3">
+        <img
+          class="size-6 mix-blend-color-burn"
+          src="./public/user.svg"
+          alt="User"
+        />
+        <p class="text-lg font-semibold">$ 0.00</p>
+        <div class="relative flex items-center size-8">
+          <img class="size-6" src="./public/bag.svg" alt="cart" />
+          <div
+            class="size-4 absolute top-0 right-0 text-sm text-center flex items-center justify-center text-white bg-green-400 rounded-full"
+          >
+            0
+          </div>
+        </div>
+      </article>
+      <!-- Mobile Navigation -->
+      <label class="md:hidden size-8 p-1">
+        <input type="checkbox" class="hidden" />
+        <span class="icon-menu"></span>
+        <nav
+          class="absolute left-0 px-6 py-4 w-full hidden flex-col gap-4 bg-white duration-300"
+        >
+          <a class="hover:text-primary focus:text-primary" href="">Shop All</a>
+          <a class="hover:text-primary focus:text-primary" href="">Makeup</a>
+          <a class="hover:text-primary focus:text-primary" href="">Skin Care</a>
+          <a class="hover:text-primary focus:text-primary" href="">Hair Care</a>
+          <a class="hover:text-primary focus:text-primary" href="">About</a>
+          <a class="hover:text-primary focus:text-primary" href="">Contact</a>
+        </nav>
+      </label>
+    </header>
+    <section class="w-full h-96 bg-slate-400"></section>
   </body>
 </html>
