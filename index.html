@@ -49,6 +49,395 @@
         </nav>
       </label>
     </header>
-    <section class="w-full h-96 bg-slate-400"></section>
+    <!-- section banner & slide -->
+    <section class="w-full h-[60vh] lg:h-[100vh] p-4">
+      <main
+        class="w-full h-[40vh] lg:h-[80vh] px-8 md:px-24 lg:px-32 text-white banner-background bg-center bg-no-repeat bg-cover"
+      >
+        <div
+          class="w-full md:w-[40%] lg:w-[45%] h-full flex flex-col justify-center"
+        >
+          <span class="text-[12px] drop-shadow-lg">New in town</span>
+          <h1 class="text-2xl md:text-3xl lg:text-6xl mt-2 drop-shadow-lg">
+            The new beauty collection
+          </h1>
+          <p class="text-sm md:text-base lg:text-lg mt-4 drop-shadow-lg">
+            This new collection brings with it the most exciting lorem ipsum
+            dolor sit amet.
+          </p>
+          <button
+            class="w-24 md:w-32 px-2 py-1 md:px-3 md:py-2 text-sm md:text-base bg-white text-black hover:text-primary duration-300 mt-8 md:max-md:mt-4 rounded-sm"
+          >
+            SHOP NOW
+          </button>
+        </div>
+      </main>
+      <article class="w-full h-[20vh] py-4">
+        <aside class="slider">
+          <div class="card-slide">
+            <img src="./public/logo-003.png" alt="Slide 1" />
+          </div>
+          <div class="card-slide">
+            <img src="./public/logo-004.png" alt="Slide 1" />
+          </div>
+          <div class="card-slide">
+            <img src="./public/logo-005.png" alt="Slide 1" />
+          </div>
+          <div class="card-slide">
+            <img src="./public/logo-006.png" alt="Slide 1" />
+          </div>
+          <div class="card-slide">
+            <img src="./public/logo-007.png" alt="Slide 1" />
+          </div>
+          <div class="card-slide">
+            <img src="./public/logo-008.png" alt="Slide 1" />
+          </div>
+        </aside>
+        <ul class="flex justify-center gap-4 list-disc">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- Popular Products -->
+    <section class="w-full">
+      <aside
+        class="w-full h-[144px] lg:h-[164px] grid place-content-center place-items-center pt-8"
+      >
+        <p class="font-light text-gray-600">Popular Products</p>
+        <h3 class="font-semibold text-3xl">Trending Now</h3>
+      </aside>
+
+      <article
+        class="w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-4 px-4 gap-4 justify-center items-center"
+      >
+        <div class="pb-5 relative box-product">
+          <img
+            class="w-full h-60 md:h-72 xl:h-96 object-cover"
+            src="./public/product-04-a-300x366.jpg"
+            alt="Product Image"
+          />
+          <button
+            class="absolute top-4 left-4 bg-white px-3 py-1 rounded-2xl shadow-md"
+          >
+            Sale!
+          </button>
+
+          <button
+            class="add-to-cart hidden absolute top-4 right-4 bg-white p-2 rounded-full shadow-md duration-[900ms]"
+          >
+            <img class="size-5" src="./public/bag.svg" alt="Cart" />
+          </button>
+          <p
+            class="label hidden absolute px-2 top-5 right-16 py-1 bg-black text-white rounded-md"
+          >
+            Add to cart
+          </p>
+          <div class="flex gap-[2px] mt-2">
+            <img class="size-4 object-cover" src="./public/star.svg" alt="" />
+            <img class="size-4 object-cover" src="./public/star.svg" alt="" />
+            <img class="size-4 object-cover" src="./public/star.svg" alt="" />
+            <img class="size-4 object-cover" src="./public/star.svg" alt="" />
+            <img class="size-4 object-cover" src="./public/star.svg" alt="" />
+          </div>
+          <h1 class="mt-2 text-base md:text-lg font-medium">Product Name</h1>
+          <span class="font-bold text-base flex gap-1"
+            ><del class="text-slate-500">$75.00</del>
+            <p>$59.00</p></span
+          >
+        </div>
+        <div class="pb-5 relative box-product">
+          <img
+            class="w-full h-60 md:h-72 xl:h-96 object-cover"
+            src="./public/product-04-a-300x366.jpg"
+            alt="Product Image"
+          />
+          <button
+            class="absolute top-4 left-4 bg-white px-3 py-1 rounded-2xl shadow-md"
+          >
+            Sale!
+          </button>
+
+          <button
+            class="add-to-cart hidden absolute top-4 right-4 bg-white p-2 rounded-full shadow-md duration-[900ms]"
+          >
+            <img class="size-5" src="./public/bag.svg" alt="Cart" />
+          </button>
+          <p
+            class="label hidden absolute px-2 top-5 right-16 py-1 bg-black text-white rounded-md"
+          >
+            Add to cart
+          </p>
+          <div class="flex gap-[2px] mt-2">
+            <img class="size-4 object-cover" src="./public/star.svg" alt="" />
+            <img class="size-4 object-cover" src="./public/star.svg" alt="" />
+            <img class="size-4 object-cover" src="./public/star.svg" alt="" />
+            <img class="size-4 object-cover" src="./public/star.svg" alt="" />
+            <img class="size-4 object-cover" src="./public/star.svg" alt="" />
+          </div>
+          <h1 class="mt-2 text-base md:text-lg font-medium">Product Name</h1>
+          <span class="font-bold text-base flex gap-1"
+            ><del class="text-slate-500">$75.00</del>
+            <p>$59.00</p></span
+          >
+        </div>
+        <div class="pb-5 relative box-product">
+          <img
+            class="w-full h-60 md:h-72 xl:h-96 object-cover"
+            src="./public/product-04-a-300x366.jpg"
+            alt="Product Image"
+          />
+          <button
+            class="absolute top-4 left-4 bg-white px-3 py-1 rounded-2xl shadow-md"
+          >
+            Sale!
+          </button>
+
+          <button
+            class="add-to-cart hidden absolute top-4 right-4 bg-white p-2 rounded-full shadow-md duration-[900ms]"
+          >
+            <img class="size-5" src="./public/bag.svg" alt="Cart" />
+          </button>
+          <p
+            class="label hidden absolute px-2 top-5 right-16 py-1 bg-black text-white rounded-md"
+          >
+            Add to cart
+          </p>
+          <div class="flex gap-[2px] mt-2">
+            <img class="size-4 object-cover" src="./public/star.svg" alt="" />
+            <img class="size-4 object-cover" src="./public/star.svg" alt="" />
+            <img class="size-4 object-cover" src="./public/star.svg" alt="" />
+            <img class="size-4 object-cover" src="./public/star.svg" alt="" />
+            <img class="size-4 object-cover" src="./public/star.svg" alt="" />
+          </div>
+          <h1 class="mt-2 text-base md:text-lg font-medium">Product Name</h1>
+          <span class="font-bold text-base flex gap-1"
+            ><del class="text-slate-500">$75.00</del>
+            <p>$59.00</p></span
+          >
+        </div>
+        <div class="pb-5 relative box-product">
+          <img
+            class="w-full h-60 md:h-72 xl:h-96 object-cover"
+            src="./public/product-04-a-300x366.jpg"
+            alt="Product Image"
+          />
+          <button
+            class="absolute top-4 left-4 bg-white px-3 py-1 rounded-2xl shadow-md"
+          >
+            Sale!
+          </button>
+
+          <button
+            class="add-to-cart hidden absolute top-4 right-4 bg-white p-2 rounded-full shadow-md duration-[900ms]"
+          >
+            <img class="size-5" src="./public/bag.svg" alt="Cart" />
+          </button>
+          <p
+            class="label hidden absolute px-2 top-5 right-16 py-1 bg-black text-white rounded-md"
+          >
+            Add to cart
+          </p>
+          <div class="flex gap-[2px] mt-2">
+            <img class="size-4 object-cover" src="./public/star.svg" alt="" />
+            <img class="size-4 object-cover" src="./public/star.svg" alt="" />
+            <img class="size-4 object-cover" src="./public/star.svg" alt="" />
+            <img class="size-4 object-cover" src="./public/star.svg" alt="" />
+            <img class="size-4 object-cover" src="./public/star.svg" alt="" />
+          </div>
+          <h1 class="mt-2 text-base md:text-lg font-medium">Product Name</h1>
+          <span class="font-bold text-base flex gap-1"
+            ><del class="text-slate-500">$75.00</del>
+            <p>$59.00</p></span
+          >
+        </div>
+      </article>
+    </section>
+
+    <!-- Best Selling -->
+    <section class="w-full">
+      <aside
+        class="w-full h-[144px] lg:h-[164px] grid place-content-center place-items-center pt-8"
+      >
+        <p class="font-light text-gray-600">Shop</p>
+        <h3 class="font-semibold text-3xl">Best Selling</h3>
+      </aside>
+
+      <article
+        class="w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-4 px-4 gap-4 justify-center items-center"
+      >
+        <div class="pb-5 relative box-product">
+          <img
+            class="w-full h-60 md:h-72 xl:h-96 object-cover"
+            src="./public/product-04-a-300x366.jpg"
+            alt="Product Image"
+          />
+          <button
+            class="absolute top-4 left-4 bg-white px-3 py-1 rounded-2xl shadow-md"
+          >
+            Sale!
+          </button>
+
+          <button
+            class="add-to-cart hidden absolute top-4 right-4 bg-white p-2 rounded-full shadow-md duration-[900ms]"
+          >
+            <img class="size-5" src="./public/bag.svg" alt="Cart" />
+          </button>
+          <p
+            class="label hidden absolute px-2 top-5 right-16 py-1 bg-black text-white rounded-md"
+          >
+            Add to cart
+          </p>
+          <div class="flex gap-[2px] mt-2">
+            <img class="size-4 object-cover" src="./public/star.svg" alt="" />
+            <img class="size-4 object-cover" src="./public/star.svg" alt="" />
+            <img class="size-4 object-cover" src="./public/star.svg" alt="" />
+            <img class="size-4 object-cover" src="./public/star.svg" alt="" />
+            <img class="size-4 object-cover" src="./public/star.svg" alt="" />
+          </div>
+          <h1 class="mt-2 text-base md:text-lg font-medium">Product Name</h1>
+          <span class="font-bold text-base flex gap-1"
+            ><del class="text-slate-500">$75.00</del>
+            <p>$59.00</p></span
+          >
+        </div>
+        <div class="pb-5 relative box-product">
+          <img
+            class="w-full h-60 md:h-72 xl:h-96 object-cover"
+            src="./public/product-04-a-300x366.jpg"
+            alt="Product Image"
+          />
+          <button
+            class="absolute top-4 left-4 bg-white px-3 py-1 rounded-2xl shadow-md"
+          >
+            Sale!
+          </button>
+
+          <button
+            class="add-to-cart hidden absolute top-4 right-4 bg-white p-2 rounded-full shadow-md duration-[900ms]"
+          >
+            <img class="size-5" src="./public/bag.svg" alt="Cart" />
+          </button>
+          <p
+            class="label hidden absolute px-2 top-5 right-16 py-1 bg-black text-white rounded-md"
+          >
+            Add to cart
+          </p>
+          <div class="flex gap-[2px] mt-2">
+            <img class="size-4 object-cover" src="./public/star.svg" alt="" />
+            <img class="size-4 object-cover" src="./public/star.svg" alt="" />
+            <img class="size-4 object-cover" src="./public/star.svg" alt="" />
+            <img class="size-4 object-cover" src="./public/star.svg" alt="" />
+            <img class="size-4 object-cover" src="./public/star.svg" alt="" />
+          </div>
+          <h1 class="mt-2 text-base md:text-lg font-medium">Product Name</h1>
+          <span class="font-bold text-base flex gap-1"
+            ><del class="text-slate-500">$75.00</del>
+            <p>$59.00</p></span
+          >
+        </div>
+        <div class="pb-5 relative box-product">
+          <img
+            class="w-full h-60 md:h-72 xl:h-96 object-cover"
+            src="./public/product-04-a-300x366.jpg"
+            alt="Product Image"
+          />
+          <button
+            class="absolute top-4 left-4 bg-white px-3 py-1 rounded-2xl shadow-md"
+          >
+            Sale!
+          </button>
+
+          <button
+            class="add-to-cart hidden absolute top-4 right-4 bg-white p-2 rounded-full shadow-md duration-[900ms]"
+          >
+            <img class="size-5" src="./public/bag.svg" alt="Cart" />
+          </button>
+          <p
+            class="label hidden absolute px-2 top-5 right-16 py-1 bg-black text-white rounded-md"
+          >
+            Add to cart
+          </p>
+          <div class="flex gap-[2px] mt-2">
+            <img class="size-4 object-cover" src="./public/star.svg" alt="" />
+            <img class="size-4 object-cover" src="./public/star.svg" alt="" />
+            <img class="size-4 object-cover" src="./public/star.svg" alt="" />
+            <img class="size-4 object-cover" src="./public/star.svg" alt="" />
+            <img class="size-4 object-cover" src="./public/star.svg" alt="" />
+          </div>
+          <h1 class="mt-2 text-base md:text-lg font-medium">Product Name</h1>
+          <span class="font-bold text-base flex gap-1"
+            ><del class="text-slate-500">$75.00</del>
+            <p>$59.00</p></span
+          >
+        </div>
+        <div class="pb-5 relative box-product">
+          <img
+            class="w-full h-60 md:h-72 xl:h-96 object-cover"
+            src="./public/product-04-a-300x366.jpg"
+            alt="Product Image"
+          />
+          <button
+            class="absolute top-4 left-4 bg-white px-3 py-1 rounded-2xl shadow-md"
+          >
+            Sale!
+          </button>
+
+          <button
+            class="add-to-cart hidden absolute top-4 right-4 bg-white p-2 rounded-full shadow-md duration-[900ms]"
+          >
+            <img class="size-5" src="./public/bag.svg" alt="Cart" />
+          </button>
+          <p
+            class="label hidden absolute px-2 top-5 right-16 py-1 bg-black text-white rounded-md"
+          >
+            Add to cart
+          </p>
+          <div class="flex gap-[2px] mt-2">
+            <img class="size-4 object-cover" src="./public/star.svg" alt="" />
+            <img class="size-4 object-cover" src="./public/star.svg" alt="" />
+            <img class="size-4 object-cover" src="./public/star.svg" alt="" />
+            <img class="size-4 object-cover" src="./public/star.svg" alt="" />
+            <img class="size-4 object-cover" src="./public/star.svg" alt="" />
+          </div>
+          <h1 class="mt-2 text-base md:text-lg font-medium">Product Name</h1>
+          <span class="font-bold text-base flex gap-1"
+            ><del class="text-slate-500">$75.00</del>
+            <p>$59.00</p></span
+          >
+        </div>
+      </article>
+    </section>
+
+    <!-- section banner & slide -->
+    <section class="w-full h-[60vh] lg:h-[100vh] p-4">
+      <main
+        class="w-full h-[40vh] lg:h-[80vh] px-8 md:px-24 lg:px-32 text-white bg-new-collection bg-center bg-no-repeat bg-cover"
+      >
+        <div
+          class="w-full md:w-[40%] lg:w-[45%] h-full flex flex-col justify-center"
+        >
+          <span class="text-[12px] drop-shadow-lg">New collection</span>
+          <h1 class="text-2xl md:text-3xl lg:text-5xl mt-2 drop-shadow-lg">
+            The beauty collection that makes all the difference!
+          </h1>
+          <p class="text-sm md:text-base lg:text-lg mt-4 drop-shadow-lg">
+            Aliquam vulputate, nunc vitae suscipit aliquet, libero arcu hendrerit sapien.
+          </p>
+          <button
+            class="w-24 md:w-32 px-2 py-1 md:px-3 md:py-2 text-sm md:text-base bg-white text-black hover:text-primary duration-300 mt-8 md:max-md:mt-4 rounded-sm"
+          >
+            SHOP NOW
+          </button>
+        </div>
+      </main>
+    </section>
+
   </body>
 </html>
