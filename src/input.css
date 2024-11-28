@@ -67,4 +67,8 @@ body {
     background-attachment: fixed;
   }
 
+  .list-disc-img {
+    list-style-image: url(../public/star-fill.svg);
+  }
+
 }
