@@ -46,7 +46,7 @@ body {
     
     & .card-slide {
       @apply px-2 py-1;
-      aspect-ratio: 24 / 10;
+      aspect-ratio: 16 / 9;
       border: 1px solid #f7d6dc;
       display: flex;
       place-content: center;

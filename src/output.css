@@ -772,16 +772,12 @@ video {
   gap: 1rem;
 }
 
-.gap-\[2px\]{
-  gap: 2px;
-}
-
-.gap-6{
-  gap: 1.5rem;
-}
-
 .gap-5{
   gap: 1.25rem;
+}
+
+.gap-\[2px\]{
+  gap: 2px;
 }
 
 .text-ellipsis{
@@ -945,12 +941,12 @@ video {
   font-weight: 500;
 }
 
-.font-semibold{
-  font-weight: 600;
-}
-
 .font-normal{
   font-weight: 400;
+}
+
+.font-semibold{
+  font-weight: 600;
 }
 
 .text-black{
@@ -1048,7 +1044,7 @@ input[type="checkbox"]:checked ~ nav{
     padding-bottom: 0.25rem;
   }
   & .card-slide {
-    aspect-ratio: 24 / 10;
+    aspect-ratio: 16 / 9;
     border: 1px solid #f7d6dc;
     display: flex;
     place-content: center;
