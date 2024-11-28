@@ -39,11 +39,11 @@ body {
     display: flex;
     gap: 20px;
     overflow-x: scroll;
-    
-    &::-webkit-scrollbar{
+
+    &::-webkit-scrollbar {
       @apply hidden;
     }
-    
+
     & .card-slide {
       @apply px-2 py-1;
       aspect-ratio: 16 / 9;
@@ -51,6 +51,10 @@ body {
       display: flex;
       place-content: center;
       place-items: center;
+
+      & img {
+        object-fit: cover;
+      }
     }
   }
 
@@ -70,5 +74,4 @@ body {
   .list-disc-img {
     list-style-image: url(../public/star-fill.svg);
   }
-
 }

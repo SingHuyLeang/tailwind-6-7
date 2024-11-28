@@ -1049,6 +1049,10 @@ input[type="checkbox"]:checked ~ nav{
     display: flex;
     place-content: center;
     place-items: center;
+    & img {
+      -o-object-fit: cover;
+         object-fit: cover;
+    }
   }
 }
 
